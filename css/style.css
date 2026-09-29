@@ -1,0 +1,36 @@
+:root {
+    --background: #fff7fb;
+    --text: #2b1621;
+    --muted: #7a5d6b;
+    --line: #f7d9e8;
+    --soft: #ffeaf4;
+    --pink: #e0218a;
+    --pink-dark: #b0106a;
+    --font-h1: 'Unbounded', sans-serif;
+    --font-body: 'Big Shoulders Display', sans-serif;
+    --font-h2: font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    font-family: var(--font-h1);
+    color: var(--pink);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: var(--font-h2);
+    color: var(--pink-dark);
+    font-size: 50px;
+}
+
+p {
+    font-family: var(--font-body);
+    color: var(--muted);
+    font-size: 20px;
+    font-weight: bold;
+}

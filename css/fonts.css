@@ -1,0 +1,30 @@
+/* FONTS are self-hosted; no Google requests.
+   All fonts use the SIL Open Font License. 
+*/
+
+/* FONT SIZE CAN CHANGE FROM 100-900 */
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/big-shoulders-display-latin-wght-normal.woff2') format('woff2-variations');
+}
+
+/* FONT SIZE CAN CHANGE FROM 100-1000 */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url('../fonts/dm-sans-latin-wght-normal.woff2') format('woff2-variations');
+}
+
+/* FONT SIZE CAN CHANGE FROM 200-900 */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('../fonts/unbounded-latin-wght-normal.woff2') format('woff2-variations');
+}
