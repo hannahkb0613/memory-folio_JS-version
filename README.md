@@ -15,11 +15,12 @@ My 'Memory Scrapbook' project is a digital scrapbook for experiences like concer
 ### Completed
 
 - [x] **Getting Started:** Established the project's foundation with self-hosted variable fonts (Unbounded, Big Shoulders Display, and DM Sans) and a base stylesheet using CSS custom properties for colors and typography.
+- [x] **Page Structure (1/2):** Semantic HTML layout with a floating glass header, hero headline, and about section.
 
 ### Working On
 
 #### Core Site Structures
-- [ ] **Page Structure:** Semantic HTML layout with a hero, about section, memory collections, and footer
+- [ ] **Page Structure (2/2):** Memory collections section and site footer
 - [ ] **Tabbed Interface:** Accessible tabs for switching between memory collections
 - [ ] **Media Carousels:** Horizontally scrolling galleries with eased scroll animations that always stop on a fully visible item
 - [ ] **Ticket Roll Design:** Connected, perforated gallery segments with a ticket stub opening each collection
