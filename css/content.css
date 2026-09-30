@@ -1,0 +1,42 @@
+/* HEADLINE STYLING */
+.hero {
+    font-family: var(--font-h1);
+    color: var(--pink-dark);
+    padding: 30px var(--page-gutter) 50px;
+    border-bottom: 1.5px solid var(--line);
+}
+
+.hero .headline {
+    font-size: clamp(25px, 5vw, 65px);
+    line-height: 1.1;
+    letter-spacing: -2.5px;
+}
+
+.hero .subheading {
+    color: var(--text);
+    font-size: 20px;
+}
+
+/* ABOUT STYLING */
+.about {
+    padding: 40px var(--page-gutter);
+    border-bottom: 1.5px solid var(--line);
+}
+
+.label {
+    font-size: 40px;
+    padding-right: 35px;
+    text-align: right;
+    font-weight: 550;
+    color: var(--pink-dark);
+    font-family: var(--font-h1);
+}
+
+.about-text {
+    font-family: var(--font-h2);
+    font-weight: 550;
+    font-size: 20px;
+    text-align: left;
+    hyphens: auto;
+    color: var(--text);
+}
