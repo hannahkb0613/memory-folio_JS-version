@@ -1,42 +1,54 @@
-/* HEADLINE STYLING */
-.hero {
+/* HEADER CONTENT */
+.headline, .memories h2, .label {
     font-family: var(--font-h1);
     color: var(--pink-dark);
-    padding: 30px var(--page-gutter) 50px;
-    border-bottom: 1.5px solid var(--line);
 }
 
-.hero .headline {
+.headline, .memories h2 {
     font-size: clamp(25px, 5vw, 65px);
     line-height: 1.1;
     letter-spacing: -2.5px;
 }
 
-.hero .subheading {
-    color: var(--text);
-    font-size: 20px;
+.label {
+    margin: 0 0 24px;
+    font-size: 40px;
+    font-weight: 550;
+    text-align: right;
 }
 
-/* ABOUT STYLING */
-.about {
+.hero {
+    padding: 30px var(--page-gutter) 50px;
+    border-bottom: 1.5px solid var(--line);
+}
+
+.hero .subheading {
+    font-family: var(--font-h1);
+    font-size: 20px;
+    color: var(--text);
+}
+
+/* ABOUT CONTENT */
+.about, .tab-content {
     padding: 40px var(--page-gutter);
     border-bottom: 1.5px solid var(--line);
 }
 
-.label {
-    font-size: 40px;
-    padding-right: 35px;
-    text-align: right;
-    font-weight: 550;
-    color: var(--pink-dark);
-    font-family: var(--font-h1);
-}
-
 .about-text {
-    font-family: var(--font-h2);
-    font-weight: 550;
+    font-family: var(--font-h1);
     font-size: 20px;
-    text-align: left;
+    font-weight: 400;
     hyphens: auto;
     color: var(--text);
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px var(--page-gutter);
+    font-family: var(--font-h1);
+    font-size: 15px;
+    color: var(--text);
+    border-top: 1px solid var(--line);
 }
